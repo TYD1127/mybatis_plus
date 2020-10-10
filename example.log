@@ -1,0 +1,367 @@
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@414b2df5] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1180773372 wrapping com.mysql.cj.jdbc.ConnectionImpl@4f213a2] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,name,age,email FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - <==      Total: 5
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@414b2df5]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61ab89b0] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@715602332 wrapping com.mysql.cj.jdbc.ConnectionImpl@11eed657] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? ) 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==> Parameters: 0(Long), 阿尔法(String), 18(Integer), 2677243889@qq.com(String)
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61ab89b0]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cad68df] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1684580278 wrapping com.mysql.cj.jdbc.ConnectionImpl@2f860823] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? ) 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==> Parameters: 0(Long), tang(String), 18(Integer), 2677243889@qq.com(String)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cad68df]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5edc70ed] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1888420238 wrapping com.mysql.cj.jdbc.ConnectionImpl@19a31b9d] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? ) 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==> Parameters: 0(Long), tang(String), 18(Integer), 2677243889@qq.com(String)
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5edc70ed]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e4c72d6] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@173783788 wrapping com.mysql.cj.jdbc.ConnectionImpl@6d60899e] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? ) 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==> Parameters: 0(Long), tangya(String), 18(Integer), 2677243889@qq.com(String)
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e4c72d6]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61ab89b0] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61ab89b0]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54326e9] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54326e9]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e9bf744] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1900971551 wrapping com.mysql.cj.jdbc.ConnectionImpl@28989415] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,name,age,email FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - <==      Total: 5
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e9bf744]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@342beaf6] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@127252077 wrapping com.mysql.cj.jdbc.ConnectionImpl@359ceb13] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? ) 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==> Parameters: 1314761801843400706(Long), tangya(String), 18(Integer), 2677243889@qq.com(String)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@342beaf6]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5478ce1e] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@300865111 wrapping com.mysql.cj.jdbc.ConnectionImpl@708f018e] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? ) 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - ==> Parameters: 8(Long), tangya(String), 18(Integer), 2677243889@qq.com(String)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.insert - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5478ce1e]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6826b70f] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1772319741 wrapping com.mysql.cj.jdbc.ConnectionImpl@19ae36f4] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - ==>  Preparing: UPDATE user SET name=?, age=?, email=? WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - ==> Parameters: tang(String), 18(Integer), 484776775@qq.com(String), 8(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6826b70f]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ad1c363] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1002572164 wrapping com.mysql.cj.jdbc.ConnectionImpl@aca3c85] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - ==>  Preparing: UPDATE user SET name=?, age=?, email=? WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - ==> Parameters: tang(String), 45(Integer), 484776775@qq.com(String), 8(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ad1c363]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70091872] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1486862157 wrapping com.mysql.cj.jdbc.ConnectionImpl@200d1a3d] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - ==>  Preparing: UPDATE user SET name=?, age=?, email=? WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - ==> Parameters: tyd(String), 45(Integer), 484776775@qq.com(String), 8(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70091872]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6cdee57] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2043383802 wrapping com.mysql.cj.jdbc.ConnectionImpl@1a2e563e] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - ==>  Preparing: UPDATE user SET name=?, age=?, email=?, update_time=? WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - ==> Parameters: tangyd(String), 45(Integer), 484776775@qq.com(String), null, 8(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.updateById - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6cdee57]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d70f312] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@586722754 wrapping com.mysql.cj.jdbc.ConnectionImpl@69d103f0] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectById - ==> Parameters: 8(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectById - <==      Total: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d70f312]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e362407] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@558576687 wrapping com.mysql.cj.jdbc.ConnectionImpl@5db0003d] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectBatchIds - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user WHERE id IN ( ? , ? , ? ) 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectBatchIds - ==> Parameters: 1(Integer), 2(Integer), 4(Integer)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectBatchIds - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e362407]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46612bfc] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@928099543 wrapping com.mysql.cj.jdbc.ConnectionImpl@6b832551] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user WHERE age = ? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - ==> Parameters: 18(String)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - <==      Total: 2
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46612bfc]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ae8fb2a] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1605950465 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e38c472] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user WHERE age = ? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - ==> Parameters: 18(String)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - <==      Total: 2
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ae8fb2a]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76d0ecd7] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2089816579 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e721583] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user WHERE name = ? AND age = ? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - ==> Parameters: Jone(String), 18(String)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectByMap - <==      Total: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76d0ecd7]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7994a0d1] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7994a0d1]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f96dd64] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@659545766 wrapping com.mysql.cj.jdbc.ConnectionImpl@74c121d4] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 0,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f96dd64]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cc75b25] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@196668120 wrapping com.mysql.cj.jdbc.ConnectionImpl@5b44318] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 3,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cc75b25]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@799f354a] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1803756881 wrapping com.mysql.cj.jdbc.ConnectionImpl@150d6eaf] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 0,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@799f354a]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3271ec2a] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1388030234 wrapping com.mysql.cj.jdbc.ConnectionImpl@150d6eaf] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 6,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3271ec2a]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be3e76c] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1040385133 wrapping com.mysql.cj.jdbc.ConnectionImpl@9b3be1c] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 0,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be3e76c]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6615237] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@246383655 wrapping com.mysql.cj.jdbc.ConnectionImpl@9b3be1c] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 6,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6615237]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54495935] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1897292616 wrapping com.mysql.cj.jdbc.ConnectionImpl@6d874695] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 0,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54495935]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ac48f05] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2062667890 wrapping com.mysql.cj.jdbc.ConnectionImpl@6d874695] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 0,5 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 5
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ac48f05]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b742bc8] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1568638055 wrapping com.mysql.cj.jdbc.ConnectionImpl@29bd85db] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 0,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b742bc8]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44641d6c] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@451486961 wrapping com.mysql.cj.jdbc.ConnectionImpl@29bd85db] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 10,5 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 0
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44641d6c]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27ffd9f8] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1430395789 wrapping com.mysql.cj.jdbc.ConnectionImpl@24a04257] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 0,3 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27ffd9f8]
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13004dd8] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1338435446 wrapping com.mysql.cj.jdbc.ConnectionImpl@24a04257] will not be managed by Spring
+DEBUG main com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize -  JsqlParserCountOptimize sql=SELECT  id,name,age,email,create_time,update_time  FROM user
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,name,age,email,create_time,update_time FROM user LIMIT 10,5 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - ==> Parameters: 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectPage - <==      Total: 0
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13004dd8]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@482f7af0] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@155224151 wrapping com.mysql.cj.jdbc.ConnectionImpl@27e44e9c] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - ==>  Preparing: DELETE FROM user WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - ==> Parameters: 8(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@482f7af0]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3030836d] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1035394386 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e92c3b6] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - ==>  Preparing: DELETE FROM user WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - ==> Parameters: 8(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - <==    Updates: 0
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3030836d]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4602f874] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@105019819 wrapping com.mysql.cj.jdbc.ConnectionImpl@794240e2] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteByMap - ==>  Preparing: DELETE FROM user WHERE name = ? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteByMap - ==> Parameters: Tom(String)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteByMap - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4602f874]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b5021d1] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@869413070 wrapping com.mysql.cj.jdbc.ConnectionImpl@35e74e08] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - ==>  Preparing: DELETE FROM user WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - ==> Parameters: 8(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - <==    Updates: 0
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b5021d1]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1894fa9f] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1318538142 wrapping com.mysql.cj.jdbc.ConnectionImpl@370c7cc5] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - ==>  Preparing: DELETE FROM user WHERE id=? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - ==> Parameters: 5(Long)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.deleteById - <==    Updates: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1894fa9f]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dbae40] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2044792756 wrapping com.mysql.cj.jdbc.ConnectionImpl@70fede7d] will not be managed by Spring
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,name,age,email,create_time,update_time,deleted FROM user WHERE name IS NOT NULL AND age >= ? 
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - ==> Parameters: 18(Integer)
+DEBUG main com.alpha.mybatis_plus.mapper.UserMapper.selectList - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dbae40]
